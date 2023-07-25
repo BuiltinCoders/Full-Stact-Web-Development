@@ -1,0 +1,50 @@
+/* float */
+/* img{
+    height: 200px;
+}
+
+#html{
+    float: right;
+}
+
+#css{
+    float: left;
+} */
+
+
+/* clear */
+.container {
+    border: 2px solid purple;
+    /* overflow: auto; */
+}
+
+/* The great collapse: Solution(when container get shrinks due to float) */
+.container::after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.box {
+    width: 150px;
+    border: 2px solid red;
+    height: 150px;
+    float: left;
+}
+
+/* #box1{
+    float: left;
+    height: 150px;
+}
+
+#box2{
+    float: right;
+    height: 200px;
+}
+
+#box3{
+    clear: right;
+    height: 100px;
+} */

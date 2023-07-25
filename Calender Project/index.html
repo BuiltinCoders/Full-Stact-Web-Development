@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=`">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calender</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="calender">
+
+            <div class="lastdays">
+                <ul>
+                    <li class="normal-font">Last 7 days</li>
+                    <li class="normal-font">Last 14 days</li>
+                    <li class="normal-font heighlight">Last 30 days</li>
+                    <li class="normal-font">Last 3 months</li>
+                    <li class="normal-font">Last 12 months</li>
+                    <li class="normal-font">Month to date</li>
+                    <li class="normal-font">Quarter to date</li>
+                    <li class="normal-font">All time</li>
+                    <li class="normal-font">Custom</li>
+                </ul>
+            </div>
+            <div class="february-container">
+                <table class="february">
+                    <thead>
+                        <tr>
+                            <th><i class="fa-solid fa-angle-right fa-rotate-180 navigate"></i></th>
+                            <th colspan="5">February</th>
+                            <th><i class="fa-solid fa-chevron-right navigate"></i></th>
+                        </tr>
+                        <tr class="week">
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                            <th>Sun</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>9</td>
+                            <td class="start-date">10</td>
+                            <td class="heighlight-date">11</td>
+                            <td class="heighlight-date">12</td>
+                            <td class="heighlight-date">13</td>
+                            <td class="heighlight-date">14</td>
+                        </tr>
+                        <tr>
+                            <td class="heighlight-date">15</td>
+                            <td class="heighlight-date">16</td>
+                            <td class="heighlight-date">17</td>
+                            <td class="heighlight-date">18</td>
+                            <td class="heighlight-date">19</td>
+                            <td class="end-date">20</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="setdate">
+                    <p class="set-start set-item">10/02/2023</p>
+                    <i class="fa-solid fa-arrow-right navi2 set-item"></i>
+                    <p class="set-end set-item">20/02/2023|</p>
+                </div>
+            </div>
+            <!-- <div class="march"></div> -->
+        </div>
+
+    </div>
+</body>
+
+</html>

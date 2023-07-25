@@ -1,0 +1,21 @@
+h1{
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 125, 148); */
+    border-bottom: 2px solid orange;
+    border-left: 2px solid orange;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+p{
+    border: 2px dashed rgb(105, 68, 0);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    padding: 120px 20px;
+    box-sizing: border-box;
+    border-radius: 12367px;
+    margin: 119px 316px;
+    /* padding: 0px 4px; */
+}

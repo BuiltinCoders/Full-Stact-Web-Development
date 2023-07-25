@@ -1,0 +1,203 @@
+/* CSS RESETING */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'inter';
+    font-size: 10px;
+}
+
+.outercontainer{
+    background-color: #f7f6ff;
+    padding: 50px 0px;
+}
+
+.innercontainer{
+    width: 45%;
+    margin: auto;
+    /* border: 2px solid red; */
+    background-color: #f7f6ff;
+    border-radius: 20px;
+}
+
+/* AVATAR BOX */
+.avatarbox{
+    background-color: white;
+    box-shadow: 2px 2px 49px -5px #e5e5e7;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+/* BACKGROUND IMAGE */
+.background-image{
+    height: 190px;
+    background-image: url('./background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* AVATAR */
+.background-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+}
+
+/* USER NAME */
+.name{
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-top: 64px;
+}
+
+#nickname{
+    font-size: 1.4rem;
+    color: #989898;
+    margin: 10px 0px;
+}
+
+#username{
+    font-size: 2.3rem;
+}
+
+/* LOCATION JOINING */
+.location-joining{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0px;
+
+}
+
+.demographic-info{
+    font-size: 1.4rem;
+    color: #9898a5;
+    margin: 0px 4px;
+}
+
+/* ACTIVITY */
+.activity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px 5px;
+}
+
+.activity-icon{
+    font-size: 2.2rem;
+    color: #6f5bac;
+}
+
+.activity-text{
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
+}
+
+.follow, .message, .more{
+    display: flex;
+    margin: 0px 9px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e7e8e9;
+    padding: 7px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.more-icon i{
+    font-size: 0.6rem;
+}
+
+/* DESCRIPTION */
+.description{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #313131;
+    padding: 14px 0px;
+}
+
+
+
+/* --------------- INFORMATION --------------- */
+.information{
+    background-color: white;
+    margin: 12px 0px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 49px -5px #e5e5e7;
+    padding: 19px 25px;
+}
+
+.links{
+    margin: 19px 0px;
+}
+
+#info-head{
+    font-size: 1.8rem;
+}
+
+/* internet */
+.web-link{
+    display: flex;
+    font-size: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i{
+    font-size: 2rem;
+    color: #634e98;
+}
+
+.logo p{
+    font-size: 1.8rem;
+    font-size: 1.4rem;
+    margin: 8px 10px;
+    color: #8f7ebb;
+}
+
+.website-link a, .email-link a{
+    font-size: 1.4rem;
+    color: black;
+    text-decoration: none;
+}
+
+.phone-info p, .joined-info p{
+    font-size: 1.4rem;
+}
+
+/* description */
+.describes-you{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 13px 0px;
+    justify-content: center;
+}
+
+.describes-you p{
+    font-size: 1.4rem;
+    background-color: #f7f6ff;
+    margin: 6px 11px;
+    border-radius: 53px;
+    padding: 10px 15px;
+}
+
+.division{
+    height: 1px;
+    background-color: #efeef9;
+}

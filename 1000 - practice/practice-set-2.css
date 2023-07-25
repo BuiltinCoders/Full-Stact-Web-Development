@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "inter";
+}
+
+#outer{
+    font-size: 20px;
+}
+
+#inner{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: underline red wavy;
+}
+
+#para{
+    text-align: center;
+    font-family: "inter";
+    font-weight: bold;
+    line-height: 40px;
+}

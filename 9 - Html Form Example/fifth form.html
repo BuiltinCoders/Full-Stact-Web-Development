@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live!</title>
+</head>
+
+<body style="background-image: url('background.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+  <div class="container" style="width: 50%; margin: auto; border: 3px solid rgb(0, 107, 195); padding: 20px;">
+    <div class="contact-image" style="text-align: center;">
+      <img src="./contact.jpg" alt="contact us" width="350px" style="margin: auto;">
+    </div>
+    <br />
+    <div class="form-section">
+      <form style="text-align: left;">
+        <label for="name">Name</label>
+        <br />
+        <input type="text" id="name" name="userName" placeholder="Enter your Name">
+        <br />
+      </br>
+
+        <label for="email">Email</label>
+        </br>
+        <input type="email" id="email" name="userEmail" placeholder="Enter your Email">
+        </br>
+      </br>
+
+        <label for="age">Age</label>
+        </br>
+        <input type="text" inputmode="numeric" min="7" max="100" name="userAge" id="age" placeholder="Enter you Age">
+        <br/>
+        <br/>
+
+        <label for="occupation">Which option describes you</label>
+        </br>
+        <select id="occupation" name="userOccupation">
+          <option value="ui/ux designer">UI/UX Designer</option>
+          <option value="Front End Developer">Front End Developer</option>
+          <option value="Back End Developer">Back End Developer</option>
+          <option value="Full Stack Developer">Full Stack Developer</option>
+          <option value="Student" selected>Student</option>
+        </select>
+
+        <br/>
+        <br/>
+
+        <label for="recomendation">Would you recomend our site to a friend?</label>
+        <br/>
+        <input type="radio" id="yes" name="recomendation" value="yes">
+        <label for="yes">Yes</label>
+        <br/>
+        <input type="radio" id="no" name="recomendation" value="no">
+        <label for="no">No</label>
+        <br/>
+        <input type="radio" id="may be" name="recomendation" value="may be">
+        <label for="may be">May Be</label>
+        <br/>
+        <br/>
+
+        <label for="framework">Which language & frameworks you know</label>
+        <br/>
+        <input type="checkbox" id="django" value="django">
+        <label for="django">Django</label>
+        <br/>
+        <input type="checkbox" id="Python" value="Python">
+        <label for="Python">Python</label>
+        <br/>
+        <input type="checkbox" id="C++" value="C++">
+        <label for="C++">C++</label>
+        <br/>
+        <input type="checkbox" id="Java" value="Java">
+        <label for="Java">Java</label>
+        <br/>
+        <input type="checkbox" id="React" value="React">
+        <label for="React">React</label>
+        <br/>
+        <input type="checkbox" id="Angular" value="Angular">
+        <label for="Angular">Angular</label>
+        <br/>
+        <input type="checkbox" id="Tailwind CSS" value="Tailwind CSS">
+        <label for="Tailwind CSS">Tailwind CSS</label>
+        <br/>
+        <input type="checkbox" id="Bootstrap" value="Bootstrap">
+        <label for="Bootstrap">Bootstrap</label>
+
+        <br/>
+        <br/>
+        <label for="suggestion">Any comments or suggestions</label>
+        <br/>
+        <textarea id="suggestion" name="suggestion" rows="10" cols="70" placeholder="Type here..."></textarea>
+
+        <br/>
+        <br/>
+        <button type="submit" value="submit" style="width: 100%;">Submit</button>
+        
+
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

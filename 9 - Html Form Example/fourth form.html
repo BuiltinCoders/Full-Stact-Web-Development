@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="userName">
+        <br/>
+        <br/>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="userPassword">
+        <br/>
+        <br/>
+        <label for="city">City of Employement: </label>
+        <input type="text" id="city" name="userCity">
+        <br/>
+        <br/>
+        <label for="server">Choose a Server: </label>
+        <select id="server" name="server">
+            <option value="" selected>-- choose a server --</option>
+            <option value="india">India</option>
+            <option value="america">America</option>
+            <option value="japan">Japan</option>
+        </select>
+        <br/>
+        <br/>        
+        <p style="display: inline">Please specify your role:</p>
+        <input type="radio" id="admin" name="role" value="admin">
+        <label for="admin">Admin</label>
+        <input type="radio" id="manager" name="role" value="manager">
+        <label for="manager">Manager</label>
+        <input type="radio" id="engineer" name="role" value="engineer">
+        <label for="engineer">Engineer</label>
+        <br/>
+        <br/>
+
+        <p style="display: inline;">Single Sign in Options: </p>
+        <input type="checkbox" id="google" name="choice">
+        <label for="google">Google</label>
+        <input type="checkbox" id="microsoft" name="choice">
+        <label for="microsoft">Microsoft</label>
+        <input type="checkbox" id="Facebook" name="choice">
+        <label for="facebook">Facebook</label>
+        <br/>
+        <br/>
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

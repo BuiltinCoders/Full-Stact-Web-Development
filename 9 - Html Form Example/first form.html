@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Event Registration</h1>
+        <label for="userName">Name: </label>
+        <input type="text" id="userName" name="userName" />
+        <br />
+        <br />
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="userEmail" />
+        <br />
+        <br />
+        <label for="phone">Phone: +91</label>
+        <input type="tel" id="phone" name="userPhone" size="10" minlength="10" maxlength="10" />
+        <br />
+        <br />
+        <label for="occupation">Occupation: </label>
+        <select id="occupation" name="occupaiton">
+            <option value="student" selected>Student</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+        </select>
+        <br />
+        <br />
+        <fieldset>
+            <legend>Topic of Interest</legend>
+            <input type="checkbox" name="interest" id="html" value="html" />
+            <label for="html">Html</label>
+            <input type="checkbox" name="interest" id="css" value="css" />
+            <label for="css">CSS</label>
+            <input type="checkbox" name="interest" id="javascript" value="javascript" />
+            <label for="javascript">Javascript</label>
+        </fieldset>
+
+        <label for="comment">Comment:</label>
+        <br />
+        <textarea id="comment" name="userComment" rows="10" cols="30" minlength="1" maxlength="100"
+            wrap="soft"></textarea>
+        <input type="submit" value="Register" />
+    </form>
+</body>
+
+</html>

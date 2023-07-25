@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css" integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Codr</title>
+</head>
+<body>
+    <div class="container">
+        <div class="webpage">
+
+            <aside class="sidebar">
+                <div class="navigation-bar">
+                    <img src="logo.png" alt="logo" id="logo">
+                    <nav>
+                        <ul class="navigation">
+                            <li class="nav-item">
+                                <i class="fa-solid fa-code"></i>
+                                <a href="#">Source Code</a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-table-columns"></i>
+                                <a href="#">Dasboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-user"></i>
+                                <a href="#">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-users"></i>
+                                <a href="#">About us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="sm-ad">
+                    <!-- ad comes here -->
+                    <img src="whatsapp-ad.png" alt="ad">
+                </div>
+            </aside>
+
+
+            <section class="content-area">
+                <header>
+                    <div class="search-area">
+                        <input type="text" id="search-query" name="search" placeholder="Search your query">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <!-- Not usable -->
+                    <!-- <div class="activity-area">
+                        message icon
+                        bell icon
+                        user icon
+                    </div> -->
+                </header>
+
+                <section class="lg-ad">
+                    <!-- <img src="instagram-ad.JPG" alt="ad"> -->
+                </section>
+
+                <section class="source-code">
+                    <div class="code-head">
+                        <h1 class="primary-heading">Analog Clock</h1>
+                        <div class="code-icons">
+                            <i class="fa-brands fa-html5 code-icon primary-heading" style="color: #e04300;"></i>
+                            <i class="fa-brands fa-css3-alt code-icon primary-heading" style="color: #00aaff;"></i>
+                            <i class="fa-brands fa-square-js code-icon primary-heading" style="color: #ffc800;"></i>
+                        </div>
+                    </div>
+                    <div class="code-area">
+                        <i class="fa-regular fa-clipboard copy-code" onclick="copyContent()"></i>
+                        
+                        <!-- Source Code comes here -->
+                        <pre>
+                        <code class="language-javascript" id="analog-clock-html">
+&lt!DOCTYPE html&gt
+&lthtml lang="en"&gt
+
+&lthead&gt
+    &ltmeta charset="UTF-8"&gt
+    &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+    &ltlink rel="stylesheet" href="style.css"&gt
+    &lttitle&gtTimeZ&lt/title&gt
+&lt/head&gt
+
+&ltbody&gt
+    &ltdiv class="container"&gt
+        &ltdiv class="outermost-clock-wrapper"&gt
+
+            &ltdiv class="outer-clock"&gt
+
+                &ltdiv class="center"&gt&lt/div&gt
+                &ltdiv id="hourhand" class="timehand"&gt
+                    &ltdiv id="point"&gt&lt/div&gt
+                &lt/div&gt
+
+                &ltdiv id="minutehand" class="timehand"&gt
+                    &ltdiv id="smallStick"&gt
+                        &ltp id="minuteValue"&gt00&lt/p&gt
+                    &lt/div&gt
+                &lt/div&gt
+
+                &ltdiv id="secondhand" class="timehand"&gt
+                    &ltdiv id="stick"&gt&lt/div&gt
+                &lt/div&gt
+
+
+                &ltdiv class="clock"&gt
+                    &ltdiv class="hour" id="hour-1"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-1"&gt1&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-2"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-2"&gt2&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-3"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-3"&gt3&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-4"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-4"&gt4&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-5"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-5"&gt5&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-6"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-6"&gt6&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-7"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-7"&gt7&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-8"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-8"&gt8&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-9"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-9"&gt9&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-10"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-10"&gt10&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-11"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-11"&gt11&lt/div&gt
+                    &lt/div&gt
+                    &ltdiv class="hour" id="hour-12"&gt
+                        &ltdiv class="hour-digit" id="hour-digit-12"&gt12&lt/div&gt
+                    &lt/div&gt
+                &lt/div&gt
+
+            &lt/div&gt
+            
+        &lt/div&gt
+    &lt/div&gt
+
+    &ltscript src="script.js"&gt&lt/script&gt
+&lt/body&gt
+
+&lt/html&gt
+                        </code>
+                    </pre>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <!-- javascript attachment -->
+    <script src="script.js"></script>
+    <script src="prism.js"></script>
+</body>
+</html>
